@@ -1,6 +1,7 @@
 (ns sum-three.core
     (:require
-      [reagent.core :as r]))
+      [reagent.core :as r]
+      [reagent.dom :as d]))
 
 ;; -------------------------
 ;; state
@@ -44,7 +45,7 @@
 ;; Initialize app
 
 (defn mount-root []
-  (r/render [home-page] (.getElementById js/document "app")))
+  (d/render [home-page] (.getElementById js/document "app")))
 
 (defn init! []
   (mount-root))
