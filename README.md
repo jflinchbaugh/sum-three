@@ -3,6 +3,12 @@
 A quick little single-page application for totaling 3 scores (1-9) in a circular buffer.
 
 ### Development mode
+
+The app was initialized from the `reagent-frontend` template:
+```
+lein new reagent-frontend sum-three
+```
+
 To start the Figwheel compiler, navigate to the project folder and run the following command in the terminal:
 
 ```
