@@ -23,10 +23,14 @@ Once Figwheel starts up, you should be able to open the `public/index.html` page
 The project is setup to start nREPL on port `7002` once Figwheel starts.
 Once you connect to the nREPL, run `(cljs)` to switch to the ClojureScript REPL.
 
+### Emacs CIDER
+
+To work on the project in emacs, start up emacs, jack into cljs, choose `figwheel` when prompted,
+and it'll start up the server from emacs. Navigate to the http://loalhost:3449/ to browse the app.
+
 ### Building for Production
 
 ```
-lein clean
 lein package
 ```
 
