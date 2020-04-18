@@ -39,7 +39,7 @@
       @scores)
     "=" 
     [:span.total (apply + @scores)]]
-   (numpad)])
+   [numpad]])
 
 ;; -------------------------
 ;; Initialize app
