@@ -37,7 +37,7 @@
     (map-indexed
       #(-> ^{:key (str "score-" %1)} [:span.score %2])
       @scores)
-    "=" 
+    "="
     [:span.total (apply + @scores)]]
    [numpad]])
 
